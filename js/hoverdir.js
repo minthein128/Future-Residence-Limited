@@ -2,10 +2,8 @@
  * jquery.hoverdir.js v1.1.0
  * http://www.codrops.com
  *
- * 
- * Copyright 2012, Codrops
- * http://www.codrops.com
  */
+
 ;( function( $, window, undefined ) {
 	
 	'use strict';

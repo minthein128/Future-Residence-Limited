@@ -1,11 +1,8 @@
-<<<<<<< HEAD
 /*!
  * Retina.js v2.1.0
  * Retina.js is an open source script that makes it easy to serve
  * high-resolution images to devices with retina displays.
  */
-=======
->>>>>>> 1e5163283d9831b1fbc8d81484b31d8a31d0ed94
 
 'use strict';
 
