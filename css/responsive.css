@@ -412,26 +412,7 @@
     .section-title h3 {
         font-size: 28px;
     }
-    .portfolio-filter ul li .btn-dark {
-        border: 0 !important;
-        width: 100%;
-        display: block;
-        background-color: #ffffff;
-        border-radius: 0;
-    }
-    .portfolio-filter ul li {
-        border-radius: 0;
-        padding: 1px;
-        display: inline-block;
-        margin: 0 1px 2px 1px;
-        text-decoration: none;
-        text-transform: uppercase;
-        background-color: #ededed;
-        vertical-align: middle;
-        width: 49%;
-        float: left;
-        border: 0 solid #ededed;
-    }
+ 
 	.message-box.right-ab{
 		margin-top: 30px;
 	}
