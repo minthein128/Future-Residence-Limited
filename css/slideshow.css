@@ -10,6 +10,7 @@ body, html {
   list-style: none;
   z-index: 1;
 }
+
 .slideshow li span {
   width: 100%;
   height: 100%;
@@ -28,6 +29,7 @@ body, html {
   -moz-animation: imageAnimation 24s linear infinite 0s;
   animation: imageAnimation 24s linear infinite 0s;
 }
+
 .slideshow li h3 {
   position: absolute;
   text-align: center;
@@ -44,12 +46,14 @@ body, html {
   -moz-animation: titleAnimation 24s linear 1 0s;
   animation: titleAnimation 24s linear 1 0s;
 }
+
 @media only screen and (min-width: 768px) {
   .slideshow li h3 {
     bottom: 30px;
     font-size: 8.125em;
   }
 }
+
 @media only screen and (min-width: 1024px) {
   .slideshow li h3 {
     font-size: 10.9375em;
@@ -57,25 +61,25 @@ body, html {
 }
 
 .slideshow li:nth-child(1) span {
-  background-image: url(../uploads/slider_01.jpg);
+  background-image: url(https://www.homestratosphere.com/wp-content/uploads/2018/02/co-op-building-hs.jpg.webp);
 }
 
 .slideshow li:nth-child(2) span {
-  background-image: url(../uploads/slider_02.jpg);
+  background-image: url(https://icelandmag.is/sites/default/files/styles/lightbox/public/thumbnails/image/1_1.jpg?itok=CHuwlrpV);
   -webkit-animation-delay: 6s;
   -moz-animation-delay: 6s;
   animation-delay: 6s;
 }
 
 .slideshow li:nth-child(3) span {
-  background-image: url(../uploads/slider_03.jpg);
+  background-image: url(https://cdn.shopify.com/s/files/1/0567/3873/products/12FlatApartmentBlock-ID89901-Perspective_1.jpg?v=1664258747);
   -webkit-animation-delay: 12s;
   -moz-animation-delay: 12s;
   animation-delay: 12s;
 }
 
 .slideshow li:nth-child(4) span {
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/203277/spring-slide.jpg);
+  background-image: url(https://media.vrbo.com/lodging/23000000/22140000/22133700/22133622/aa4e8fb6.c10.jpg);
   -webkit-animation-delay: 18s;
   -moz-animation-delay: 18s;
   animation-delay: 18s;

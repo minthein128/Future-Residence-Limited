@@ -1,4 +1,13 @@
 
+<<<<<<< HEAD
+/**
+ * Owl carousel
+ * @version 2.1.0
+ * @author Bartosz Wojciechowski
+ * @author David Deutsch
+ */
+=======
+>>>>>>> 1e5163283d9831b1fbc8d81484b31d8a31d0ed94
 ;(function($, window, document, undefined) {
 
 	/**
@@ -814,7 +823,7 @@
 
 	/**
 	 * Gets absolute position of the closest item for a coordinate.
-	 * @todo Setting `freeDrag` makes `closest` not reusable. See #165.
+	 * @todo Setting `freeDrag` makes `closest` not reusable.
 	 * @protected
 	 * @param {Number} coordinate - The coordinate in pixel.
 	 * @param {String} direction - The direction to check for the closest item. Ether `left` or `right`.
@@ -2462,11 +2471,8 @@
 /**
  * Autoplay Plugin
  * @version 2.1.0
- * @author Bartosz Wojciechowski
- * @author Artus Kolanowski
- * @author David Deutsch
- * @license The MIT License (MIT)
  */
+
 ;(function($, window, document, undefined) {
 
 	/**
@@ -2662,9 +2668,6 @@
 /**
  * Navigation Plugin
  * @version 2.1.0
- * @author Artus Kolanowski
- * @author David Deutsch
- * @license The MIT License (MIT)
  */
 ;(function($, window, document, undefined) {
 	'use strict';
@@ -3169,10 +3172,6 @@
  * Support Plugin
  *
  * @version 2.1.0
- * @author Vivid Planet Software GmbH
- * @author Artus Kolanowski
- * @author David Deutsch
- * @license The MIT License (MIT)
  */
 ;(function($, window, document, undefined) {
 

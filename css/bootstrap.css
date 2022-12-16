@@ -1,10 +1,16 @@
+<<<<<<< HEAD
+/*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)*/
+=======
 /* Bootstrap v3.3.7 (http://getbootstrap.com)*/
+>>>>>>> 1e5163283d9831b1fbc8d81484b31d8a31d0ed94
 
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
+
 body {
   margin: 0;
 }
@@ -23,6 +29,7 @@ section,
 summary {
   display: block;
 }
+
 audio,
 canvas,
 progress,
@@ -30,6 +37,7 @@ video {
   display: inline-block;
   vertical-align: baseline;
 }
+
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -1285,21 +1293,25 @@ h6,
 p {
   margin: 0 0 10px;
 }
+
 .lead {
   margin-bottom: 20px;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.4;
 }
+
 @media (min-width: 768px) {
   .lead {
-    font-size: 21px;
+    font-size: 20px;
   }
 }
+
 small,
 .small {
   font-size: 85%;
 }
+
 mark,
 .mark {
   padding: .2em;
@@ -1577,27 +1589,32 @@ pre code {
   max-height: 340px;
   overflow-y: scroll;
 }
+
 .container {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
   }
 }
+
 @media (min-width: 992px) {
   .container {
     width: 970px;
   }
 }
+
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
   }
 }
+
 .container-fluid {
   padding-right: 15px;
   padding-left: 15px;
@@ -4227,6 +4244,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-right: -15px;
   margin-left: -15px;
 }
+
 @media (min-width: 768px) {
   .container > .navbar-header,
   .container-fluid > .navbar-header,
@@ -4236,6 +4254,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     margin-left: 0;
   }
 }
+
 .navbar-static-top {
   z-index: 1000;
   border-width: 0 0 1px;
@@ -4984,6 +5003,7 @@ a.badge:focus {
     padding-top: 48px;
     padding-bottom: 48px;
   }
+
   .container .jumbotron,
   .container-fluid .jumbotron {
     padding-right: 60px;
@@ -4994,6 +5014,7 @@ a.badge:focus {
     font-size: 63px;
   }
 }
+
 .thumbnail {
   display: block;
   padding: 4px;
@@ -6489,6 +6510,7 @@ button.close {
   display: table;
   content: " ";
 }
+
 .clearfix:after,
 .dl-horizontal dd:after,
 .container:after,
@@ -6507,6 +6529,7 @@ button.close {
 .modal-footer:after {
   clear: both;
 }
+
 .center-block {
   display: block;
   margin-right: auto;
@@ -6524,6 +6547,7 @@ button.close {
 .show {
   display: block !important;
 }
+
 .invisible {
   visibility: hidden;
 }

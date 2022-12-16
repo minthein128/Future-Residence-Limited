@@ -1,49 +1,24 @@
-/*------------------------------------------------------------------
-    Version: 1.0
--------------------------------------------------------------------*/
 
-
-/*------------------------------------------------------------------
-    [Table of contents]
-
-    1. DEFAULT VERSION (Check style.css and colors.css)
-    2. HOSTING VERSION
-    3. SEO VERSION
-    4. WATCH VERSION
-    5. APP VERSION
-    6. CLINIC VERSION
-    7. REAL ESTATE VERSION
-    8. POLITICS VERSION
-    9. BARBER VERSION
-    10. BUILDING VERSION
-
--------------------------------------------------------------------*/
-
-
-/*------------------------------------------------------------------
-    1. REAL ESTATE VERSION
--------------------------------------------------------------------*/
-
-body.realestate_version .section-title small,
-body.realestate_version .property-detail i,
-body.realestate_version .customwidget li i,
-body.realestate_version .navbar-nav span {
+body.realestate .section-title small,
+body.realestate .property-detail i,
+body.realestate .customwidget li i,
+body.realestate .navbar-nav span {
     color: #a8cf45;
 }
 
-body.realestate_version .lead strong,
-body.realestate_version .icon-wrapper:hover a,
-body.realestate_version a:hover,
-body.realestate_version a:focus {
+body.realestate .lead strong,
+body.realestate .icon-wrapper:hover a,
+body.realestate a:hover,
+body.realestate a:focus {
     color: #a8cf45
 }
 
-body.realestate_version .property-detail i,
-body.realestate_version .property-detail .col-md-3:hover img {
+body.realestate .property-detail i,
+body.realestate .property-detail .col-md-3:hover img {
     border-color: #a8cf45;
 }
 
-body.realestate_version .btn-light {
+body.realestate .btn-light {
     color: #ffffff !important;
 }
 
@@ -52,54 +27,54 @@ body.realestate_version .btn-light {
 GRADIENTS 
 **************************************/
 
-body.realestate_version .icon_wrap:hover,
-body.realestate_version .nav-pills > li.active > a,
-body.realestate_version .nav-pills > li.active > a:focus,
-body.realestate_version .nav-pills > li.active > a:hover,
-body.realestate_version .icon-wrapper:hover i,
-body.realestate_version .grd1 {
+body.realestate .icon_wrap:hover,
+body.realestate .nav-pills > li.active > a,
+body.realestate .nav-pills > li.active > a:focus,
+body.realestate .nav-pills > li.active > a:hover,
+body.realestate .icon-wrapper:hover i,
+body.realestate .grd1 {
     color: #ffffff;
     background: #a8cf45;    
 }
 
-body.realestate_version .icon_wrap,
-body.realestate_version .dmtop:hover,
-body.realestate_version .cac:hover,
-body.realestate_version .features-right li:hover i,
-body.realestate_version .features-left li:hover i,
-body.realestate_version .nav-pills > li:hover > a,
-body.realestate_version .nav-pills > li:focus > a,
-body.realestate_version .nav-pills > li.active > a,
-body.realestate_version .nav-pills > li.active > a:focus,
-body.realestate_version .nav-pills > li.active > a:hover,
-body.realestate_version .divider-bar,
-body.realestate_version .owl-next:hover i,
-body.realestate_version .owl-prev:hover i,
-body.realestate_version .icon-wrapper:hover i:hover,
-body.realestate_version .grd1:hover,
-body.realestate_version .grd1:focus {
+body.realestate .icon_wrap,
+body.realestate .dmtop:hover,
+body.realestate .cac:hover,
+body.realestate .features-right li:hover i,
+body.realestate .features-left li:hover i,
+body.realestate .nav-pills > li:hover > a,
+body.realestate .nav-pills > li:focus > a,
+body.realestate .nav-pills > li.active > a,
+body.realestate .nav-pills > li.active > a:focus,
+body.realestate .nav-pills > li.active > a:hover,
+body.realestate .divider-bar,
+body.realestate .owl-next:hover i,
+body.realestate .owl-prev:hover i,
+body.realestate .icon-wrapper:hover i:hover,
+body.realestate .grd1:hover,
+body.realestate .grd1:focus {
     background-position: 100px;
     color: #ffffff;
     background: #076799;
 }
 
-body.realestate_version .effect-1,
-body.realestate_version .effect-1:after {
+body.realestate .effect-1,
+body.realestate .effect-1:after {
     box-shadow: 0 0 0 2px #a8cf45;
     border-radius: 0 !important;
 }
 
-body.realestate_version .property-detail {
+body.realestate .property-detail {
     text-align: center;
     cursor: pointer;
 }
 
-body.realestate_version .property-detail p.lead {
+body.realestate .property-detail p.lead {
     margin-bottom: 0;
     padding-bottom: 0;
 }
 
-body.realestate_version .property-detail h4 {
+body.realestate .property-detail h4 {
     font-weight: 400;
     font-size: 21px;
     line-height: 1 !important;
@@ -107,7 +82,7 @@ body.realestate_version .property-detail h4 {
     padding: 30px 0 20px 0;
 }
 
-body.realestate_version .property-detail i {
+body.realestate .property-detail i {
     max-width: 80px;
     color: #a8cf45;
     background-color: #fff !important;
@@ -120,19 +95,19 @@ body.realestate_version .property-detail i {
     display: block;
 }
 
-body.realestate_version .header_style_01 {
+body.realestate .header_style_01 {
     background-color: rgba(255, 255, 255);
 }
 
-body.realestate_version .contact_form .grd1 {
+body.realestate .contact_form .grd1 {
     border: 0 !important;
 }
 
-body.realestate_version .social-links {
+body.realestate .social-links {
     margin-top: 0 !important;
 }
 
-body.realestate_version .social-links i {
+body.realestate .social-links i {
     border: 1px solid #076799;
     display: block;
     font-size: 14px;
@@ -144,7 +119,7 @@ body.realestate_version .social-links i {
     width: 30px;
 }
 
-body.realestate_version .section-title small {
+body.realestate .section-title small {
     font-size: 15px;
     color: #999;
     letter-spacing: 1px;
@@ -154,7 +129,7 @@ body.realestate_version .section-title small {
     text-transform: uppercase;
 }
 
-body.realestate_version .contact_form h3 i {
+body.realestate .contact_form h3 i {
     border: 1px solid #fff;
     display: inline-block;
     font-size: 14px;
@@ -167,12 +142,12 @@ body.realestate_version .contact_form h3 i {
     width: 30px;
 }
 
-body.realestate_version .contact_form h3 {
+body.realestate .contact_form h3 {
     margin: 0 0 10px;
     display: block;
 }
 
-body.realestate_version .first-section {
+body.realestate .first-section {
     display: block;
     position: relative;
 	display: -webkit-box;
@@ -183,25 +158,25 @@ body.realestate_version .first-section {
 	align-items: center;
 }
 
-body.realestate_version .first-section .grd1 {
+body.realestate .first-section .grd1 {
     border: 0 !important;
 }
 
-body.realestate_version .agencies_meta span {
+body.realestate .agencies_meta span {
     display: block;
     margin-top: 15px;
 	color: #999999;
 }
 
-body.realestate_version .agencies_meta span a {
+body.realestate .agencies_meta span a {
     color: #999999;
 }
 
-body.realestate_version .agencies_meta span a:hover {
+body.realestate .agencies_meta span a:hover {
 	color: #a8cf45;
 }
 
-body.realestate_version .agencies_meta span i {
+body.realestate .agencies_meta span i {
     display: block;
     border: 0 solid #fff;
     background-color: #232323;
@@ -217,24 +192,24 @@ body.realestate_version .agencies_meta span i {
     width: 30px;
 }
 
-body.realestate_version .section.db .effect-1,
-body.realestate_version .section.db .effect-1:after {
+body.realestate .section.db .effect-1,
+body.realestate .section.db .effect-1:after {
     box-shadow: 0 0 0 0 #f47e00;
     border: 0 !important;
     box-shadow: none !important;
     border-radius: 2px !important;
 }
 
-body.realestate_version .sep2,
-body.realestate_version .section.db {
+body.realestate .sep2,
+body.realestate .section.db {
     background-color: #1f1f1f !important;
 }
 
-body.realestate_version .section.db .message-box h2 {
+body.realestate .section.db .message-box h2 {
     color: #ffffff;
 }
 
-body.realestate_version .da-thumbs .pitem a div i {
+body.realestate .da-thumbs .pitem a div i {
     background-color: #232323;
     border-radius: 100%;
     bottom: 0;
@@ -252,34 +227,34 @@ body.realestate_version .da-thumbs .pitem a div i {
     z-index: 12;
 }
 
-body.realestate_version #map {
+body.realestate #map {
     height: 600px;
     position: relative;
     width: 100%;
     z-index: 1;
 }
 
-body.realestate_version #map img {
+body.realestate #map img {
     max-width: inherit;
 }
 
-body.realestate_version .map {
+body.realestate .map {
     position: relative;
 }
 
-body.realestate_version .map .row {
+body.realestate .map .row {
     position: relative;
 }
 
-body.realestate_version .infobox img {
+body.realestate .infobox img {
     width: 100% !important;
 }
 
-body.realestate_version .map .searchmodule {
+body.realestate .map .searchmodule {
     padding: 18px 10px;
 }
 
-body.realestate_version .infobox {
+body.realestate .infobox {
     display: block;
     margin: 0;
     padding: 0 0 10px;
@@ -288,7 +263,7 @@ body.realestate_version .infobox {
     z-index: 100;
 }
 
-body.realestate_version .infobox .title {
+body.realestate .infobox .title {
     font-size: 13px;
     line-height: 1;
     margin-bottom: 0;
@@ -297,18 +272,18 @@ body.realestate_version .infobox .title {
     text-transform: capitalize;
 }
 
-body.realestate_version .desc h3 i {
+body.realestate .desc h3 i {
     color: rgba(0, 0, 0, 0.1);
 }
 
-body.realestate_version .testimonial h4 {
+body.realestate .testimonial h4 {
     color: #1f1f1f;
 	text-align: left;
 }
 
-body.realestate_version .owl-next i,
-body.realestate_version .owl-prev i,
-body.realestate_version .desc {
+body.realestate .owl-next i,
+body.realestate .owl-prev i,
+body.realestate .desc {
     box-shadow: none !important;
     border: 0 !important;
     background-color: #fff;

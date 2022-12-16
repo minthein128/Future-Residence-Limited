@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+/*!
+ * Retina.js v2.1.0
+ * Retina.js is an open source script that makes it easy to serve
+ * high-resolution images to devices with retina displays.
+ */
+=======
+>>>>>>> 1e5163283d9831b1fbc8d81484b31d8a31d0ed94
 
 'use strict';
 
@@ -55,15 +63,13 @@ function chooseCap(cap) {
   var numericCap = parseInt(cap, 10);
 
   /*
-   * If the environment's device pixel ratio is less than what the user
-   * provided, we'll only grab images at that size.
+   * If the environment's device pixel ratio is less than provided, will only grab images at that size.
    */
   if (environment < numericCap) {
     return environment;
 
     /*
-     * If the device pixel ratio is greater than or equal to what the
-     * user provided, we'll use what the user provided.
+     * If the device pixel ratio is greater than or equal to provided, will use the provided photo.
      */
   } else {
       return numericCap;
@@ -182,6 +188,7 @@ function manualSwapImage(image, src, hdsrc) {
  *
  * @return {Iterable} Contains all elements matching our selector.
  */
+
 function getImages(images) {
   if (!images) {
     return typeof document !== 'undefined' ? arrayify(document.querySelectorAll(selector)) : [];

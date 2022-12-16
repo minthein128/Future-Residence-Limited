@@ -164,8 +164,6 @@
 	 * Escape special characters for use with querySelector
 	 * @private
 	 * @param {String} id The anchor ID to escape
-	 * @author Mathias Bynens
-	 * @link https://github.com/mathiasbynens/CSS.escape
 	 */
 	var escapeCharacters = function ( id ) {
 
@@ -182,8 +180,6 @@
 		var firstCodeUnit = string.charCodeAt(0);
 		while (++index < length) {
 			codeUnit = string.charCodeAt(index);
-			// Note: there’s no need to special-case astral symbols, surrogate
-			// pairs, or lone surrogates.
 
 			// If the character is NULL (U+0000), then throw an
 			// `InvalidCharacterError` exception and terminate these steps.
